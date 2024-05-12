@@ -139,6 +139,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	/* { MODKEY|ShiftMask,             XK_q,      quit,           {0} }, */
 	{ MODKEY|ShiftMask,             XK_q,      spawn,          SHCMD("~/.config/rofi/scripts/powermenu_t3") },
+	{ MODKEY|ControlMask|ShiftMask, XK_q,      quit,           {1} }, 
 	/*========================================
 	|        custom function  keymaps        |
 	========================================*/
