@@ -33,6 +33,8 @@ static const unsigned int systrayonleft  = 0;   /* 0: systray in the right corne
 static const unsigned int systrayspacing = 2;   /* systray spacing */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray        = 1;        /* 0 means no systray */
+#define ICONSIZE 16   /* icon size */
+#define ICONSPACING 5 /* space between icon and title */
 
 /*  Display modes of the tab bar: never shown, always shown, shown only in  */
 /*  monocle mode in the presence of several windows.                        */
