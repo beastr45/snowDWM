@@ -46,7 +46,7 @@ static const int toptab				= False;               /* False means bottom tab bar 
 
 
 /* tagging */
-static const char *tags[] = { "󰋜", "󰖟", "", "󰙏", "5", "6", "7", "8", "" };
+static const char *tags[] = { "󰋜", "󰖟", "", "", "󰇰", "", "7", "8", "󰒲" };
 
 static const Rule rules[] = {
 	/* xprop(1):
