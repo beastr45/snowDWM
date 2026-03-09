@@ -1,7 +1,8 @@
 [
   {
+    "file": "drw.c",
     "arguments": [
-      "/sbin/cc",
+      "gcc",
       "-c",
       "-std=c99",
       "-pedantic",
@@ -17,12 +18,12 @@
       "-DXINERAMA",
       "drw.c"
     ],
-    "directory": "/home/bear/projects/other/dwm",
-    "file": "/home/bear/projects/other/dwm/drw.c"
+    "directory": "/home/bear/projects/2contrib/snowDWM"
   },
   {
+    "file": "dwm.c",
     "arguments": [
-      "/sbin/cc",
+      "gcc",
       "-c",
       "-std=c99",
       "-pedantic",
@@ -38,12 +39,12 @@
       "-DXINERAMA",
       "dwm.c"
     ],
-    "directory": "/home/bear/projects/other/dwm",
-    "file": "/home/bear/projects/other/dwm/dwm.c"
+    "directory": "/home/bear/projects/2contrib/snowDWM"
   },
   {
+    "file": "util.c",
     "arguments": [
-      "/sbin/cc",
+      "gcc",
       "-c",
       "-std=c99",
       "-pedantic",
@@ -59,7 +60,6 @@
       "-DXINERAMA",
       "util.c"
     ],
-    "directory": "/home/bear/projects/other/dwm",
-    "file": "/home/bear/projects/other/dwm/util.c"
+    "directory": "/home/bear/projects/2contrib/snowDWM"
   }
 ]

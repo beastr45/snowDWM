@@ -1,0 +1,50 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
+
+# Indentation and Tabs
+UseTab: Always
+IndentWidth: 8
+TabWidth: 8
+ContinuationIndentWidth: 8
+
+# Braces and Layout
+BreakBeforeBraces: Linux
+AllowShortBlocksOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+
+# Function Definitions
+# This handles the "return after the type" requirement
+AlwaysBreakAfterReturnType: AllDefinitions
+
+# Whitespace and Alignment
+AlignAfterOpenBracket: DontAlign
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignOperands: false
+AlignTrailingComments: true
+
+# Pointer/Reference Alignment
+PointerAlignment: Right
+
+# Line Limits
+ColumnLimit: 80
+
+# Space behaviors
+SpaceAfterCStyleCast: false
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+# Sorting
+SortIncludes: false
+
+# Special handling for suckless-style comments
+# Matches the '/* See LICENSE file ... */' block style
+CommentPragmas: '^ See LICENSE file'
+...
